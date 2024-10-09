@@ -1,0 +1,44 @@
+.container {
+    background-color:#EFEFEF;/* 背景色を #EFEFEF に */
+    width:100%;/* 幅を 100% に */ 
+    max-width:480px;/* 最大の幅を 480px に */
+    margin-top:50px;/* 余白（外側）を上下を 50px、左右を auto に */
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;/* 余白（内側）を上下左右 20px に */
+}
+h1 {
+    text-size-adjust:16px;/* 文字の大きさを 16px に */
+    margin:0;/* 余白（外側）を上下左右 0 に */
+    text-align:center;/* 文章を中央揃えに */
+}
+button {
+    display: block;/* 縦並びに（ブロック要素に） */
+    text-emphasis-color:#000000;/* 文字色を #000000（黒）に */
+    border:1px solid #424242;/* 枠線を 1px solid #424242 に */
+    border-radius:5px;/* 枠線の角を 5px 丸くする */
+    width:100%;/* 幅を 100% に */
+    height:30px;/* 高さを 30px に */
+    margin-top:10px;/* 余白（外側）を上下 10px、左右 0 に */
+    margin-bottom:10px;
+    margin-left:0;
+    margin-right:0;
+    text-align:center;/* 文章を中央揃えに */
+}
+.correct {
+    background-color:#C5E1A5;/* 背景色を #C5E1A5 に */
+}
+.incorrect {
+    background-color:#BDBDBD;/* 背景色を #BDBDBD に */
+}
+.result {
+    text-size-adjust:20px;/* 文字の大きさを 20px に */
+    font-weight:bold;/* 文字を太さを bold に */
+    margin-top:20px;/* 上側の余白（外側）を 20px に */
+    text-align:center;/* 文章を中央揃えに */
+}
+.next {
+    background-color:rgb(0, 255, 255);/* 背景色を #0277BD に */
+    text-emphasis-color:#FFFFFF;/* 文字色を #FFFFFF（白）に */
+}
